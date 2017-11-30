@@ -1,0 +1,25 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        // "debug": true,
+        "targets": {
+          "browsers": [
+            "ie >= 9",
+            "iOS >= 7",
+            "Android >= 4.4"
+          ]
+        },
+        "modules": false,
+        "useBuiltIns": "usage"
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    "syntax-object-rest-spread",
+    "transform-object-rest-spread"
+  ]
+}
