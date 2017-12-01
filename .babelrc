@@ -12,7 +12,7 @@
           ]
         },
         "modules": false,
-        "useBuiltIns": "usage"
+        "useBuiltIns": true
       }
     ],
     "react"
